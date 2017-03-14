@@ -6,13 +6,6 @@ from collections import OrderedDict
 import os
 from reprlib import recursive_repr
 
-# External modules
-# ================
-
-# DICE modules
-# ============
-from dice.dice_extras.tools.json_sync import JsonOrderedDict
-
 
 class Settings(dict):
     """
